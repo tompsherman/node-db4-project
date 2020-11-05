@@ -12,4 +12,8 @@ server.use(express.json())
 
 // server.use('/api/recipes')
 
+server.get('/', (req,res)=>{ 
+    res.status(200).json({message: "shit is lit"})
+ })
+
 module.exports = server
