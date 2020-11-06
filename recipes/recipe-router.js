@@ -1,5 +1,7 @@
-const db = require('../data/db-config')
+const express = require('express')
 
-module.exports = {
-    
-}
+const Recipes = require('./recipe-model')
+
+const router = express.Router()
+
+module.exports = router
